@@ -1,0 +1,16 @@
+---
+layout: post
+section-type: post
+title: Documentation on the Aorta Segmentation project
+category: documentation
+tags: [ 'medical imaging' ]
+---
+
+Between August and December 2016 I worked on my computing engineering undergraduate thesis on medical images analysis in order to develop a tool for
+the Segmentation of the aorta artery for applications such as the
+quantification of the elasticity of the aorta artery and
+quantification of the aorta artery calcifications under the direction
+of prof. Marcela Hernandez.
+The work has been done in colaboration with prof. Leonardo Florez, from Pontificia
+ Universidad Javeriana (Bogota, Colombia), and Eduardo Davila, from CREATIS Laboratory
+  (Lyon, France).

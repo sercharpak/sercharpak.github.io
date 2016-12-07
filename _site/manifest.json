@@ -1,5 +1,5 @@
 {
-  "name": "{ Sergio Daniel Hernandez Charpak }",
+  "name": "Sergio Daniel Hernandez Charpak",
   "icons": [
     {
       "src": "/img/web-app/icon-36p.png",
@@ -32,6 +32,6 @@
       "type": "image/png"
     }
   ],
-  "start_url": "https://panossakkos.github.io",
+  "start_url": "https://sercharpak.github.io",
   "display": "standalone"
 }
