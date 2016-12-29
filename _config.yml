@@ -29,8 +29,8 @@ force-https: True
 #############
 
 lang: "en"
-author: "Sergio D. Hernandez Charpak"
-title: "Sergio D. Hernandez Charpak"
+author: "Sergio Daniel Hernandez Charpak"
+title: "Sergio Daniel Hernandez Charpak"
 description: "Blog and website of Sergio Daniel Hernandez Charpak, blogging, personal information as well as information and documentation for different projects."
 keywords: "Hernandez-Charpak, Sergio, personal, Astrophysics, Imaging, Education, Chess"
 favicon: "/img/favicon.ico"
