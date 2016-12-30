@@ -24,11 +24,12 @@ toolbox. In one project the goal was to obtain a visualization of the deformatio
 <h2> Previous projects</h2>
 
 <h3>Aorta Wall Deformation project</h3>
+<!---
 <p>The main developer of this project was Eduardo Dávila. The
 goal of the project was to visualize and quantify the deformation of the aorta artery wall between the systole and diastole phases.  </p>
 <p>A summary of the project is the following <b>diagram</b>. Download the  <a href="https://github.com/sercharpak/Proyecto_de_grado/raw/master/docs/old_project_AortaWall.gv"> .DOT source here</a>.</p>
 <img src="https://github.com/sercharpak/Proyecto_de_grado/raw/master/docs/old_project_AortaWall.png"  >
-
+--->
 <h3>Calcifications Segmentation project</h3>
 <p>The main developer of this project was Eduardo Dávila. The
 goal of the project was to visualize and confirm the calcifications around the aorta artery. </p>
