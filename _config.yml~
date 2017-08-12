@@ -33,13 +33,13 @@ author: "Sergio Daniel Hernandez Charpak"
 title: "Sergio Daniel Hernandez Charpak"
 description: "Blog and website of Sergio Daniel Hernandez Charpak, blogging, personal information as well as information and documentation for different projects."
 keywords: "Hernandez-Charpak, Sergio, personal, Astrophysics, Imaging, Education, Chess"
-favicon: "/img/atom_icon.ico"
+favicon: "/img/favicon.ico"
 
 ################
 # Header layout #
 ################
 
-black-favicon: "/img/atom_icon.ico"
+black-favicon: "/img/black-lab-glass.ico"
 
 background-img: "../img/intro-bg.JPG"
 
@@ -58,7 +58,6 @@ lines: # You can add HTML Tags in the Text
   - text: "If you wait for luck to turn up, life becomes very boring. - Mikhail Tal"
   - text: "If there's one thing to do, it's to engage in education - Georges Charpak"
   - text: "In case of doubt, attack - General S Patton"
-  - text: "As long as you live, keep learning how to live - Seneca"
 
 me-img: "/img/author.png"
 
@@ -76,12 +75,12 @@ web-app-mode: True
 
 # Icons for Web App mode
 
-icon-36p: "/img/web-app/atom_icon_32.ico"
-icon-48p: "/img/web-app/atom_icon_48.ico"
-icon-72p: "/img/web-app/atom_icon_64.ico"
-icon-96p: "/img/web-app/atom_icon_96.ico"
-icon-144p: "/img/web-app/atom_icon_128.ico"
-icon-192p: "/img/web-app/atom_icon_192.ico"
+icon-36p: "/img/web-app/icon-36p.png"
+icon-48p: "/img/web-app/icon-48p.png"
+icon-72p: "/img/web-app/icon-72p.png"
+icon-96p: "/img/web-app/icon-96p.png"
+icon-144p: "/img/web-app/icon-144p.png"
+icon-192p: "/img/web-app/icon-192p.png"
 
 ########
 # Blog #
@@ -131,12 +130,7 @@ events:
   - image: "/img/timeline/cppm.png"
     date: "Summer 2016"
     description: "Intern at CPPM (Marseille, France)"
-  - image: "/img/timeline/Grado_Diego_cut.png"
-    date: "March 2017"
-    description: "Graduated from University at Uniandes (Bogota, Colombia)"
-  - image: "/img/timeline/epfl_logo_cut.png"
-    date: "September 2017"
-    description: "Starting a Master in CSE at EPFL (Lausanne, Switzerland)"
+
 
 
 # First image of the Timeline
@@ -157,7 +151,7 @@ email: "sergiocharpak@gmail.com"
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-author_blurb: "Sergio Hernandez Charpak is a Physicist and Computing Engineer, and also an enthousiast of travel, hiking, chess and piano."
+author_blurb: "Sergio Hernandez Charpak is a Physics and Computing Engineering student, and also an enthousiast of travel, hiking, chess and piano."
 author_blurb_image: "/img/author.png"
 
 ##################
