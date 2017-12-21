@@ -1,4 +1,4 @@
-# {sercharpak.github.io
+# sercharpak.github.io
 
 Repository for my own webiste. It contains personal information as well as information and documentation for different projects.
 
