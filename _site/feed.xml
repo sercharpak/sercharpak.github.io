@@ -3,8 +3,8 @@
 	<channel>
 		<title>Sergio Daniel Hernandez Charpak</title>
 		<description>Blog and website of Sergio Daniel Hernandez Charpak, blogging, personal information as well as information and documentation for different projects.</description>
-		<link>http://localhost:4000</link>
-		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+		<link>https://sercharpak.github.io</link>
+		<atom:link href="https://sercharpak.github.io/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
 				<title>Documentation on the Aorta Segmentation project</title>
@@ -18,12 +18,11 @@ of prof. Marcela Hernandez.
 The work has been done in colaboration with prof. Leonardo Florez, from Pontificia
  Universidad Javeriana (Bogota, Colombia), and Eduardo Davila, from CREATIS Laboratory
   (Lyon, France).&lt;/p&gt;
-
 </description>
 				
-				<pubDate>Tue, 06 Dec 2016 00:00:00 -0500</pubDate>
-				<link>http://localhost:4000/documentation/2016/12/06/docAortaProject.html</link>
-				<guid isPermaLink="true">http://localhost:4000/documentation/2016/12/06/docAortaProject.html</guid>
+				<pubDate>Tue, 06 Dec 2016 00:00:00 +0100</pubDate>
+				<link>https://sercharpak.github.io/documentation/2016/12/06/docAortaProject.html</link>
+				<guid isPermaLink="true">https://sercharpak.github.io/documentation/2016/12/06/docAortaProject.html</guid>
 			</item>
 		
 	</channel>
