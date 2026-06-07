@@ -93,16 +93,16 @@ post-preview-words: 96
 
 paginate: 5
 
-email-share: True
-fb-share: True
-twitter-share: True
-linkedin-share: True
-reddit-share: True
+email-share: False
+fb-share: False
+twitter-share: False
+linkedin-share: False
+reddit-share: False
 google-plus-share: False
-tumblr-share: True
-pinterest-share: True
-pocket-share: True
-vkontakte-share: True
+tumblr-share: False
+pinterest-share: False
+pocket-share: False
+vkontakte-share: False
 
 disqus-shortname: "sercharpak"
 
@@ -146,12 +146,12 @@ events:
   - image: "/img/timeline/upcourtine_logo.png"
     date: "March 2020"
     description: "Scientific Assistant and start of PhD at .NeuroRestore (Lausanne, Switzerland)"
-  - image: "/img/timeline/NR_EPFL_CHUV.png"
-    date: "June 2024"
-    description: "Imaging and Compuational Manager at .NeuroRestore (Lausanne, Switzerland)"
   - image: "/img/timeline/defense_hats.png"
     date: "February 2025"
     description: "Graduated as PhD at .NeuroRestore (EPFL, Lausanne, Switzerland)"
+  - image: "/img/timeline/NR_EPFL_CHUV.png"
+    date: "March 2025"
+    description: "Imaging and Computation Manager at .NeuroRestore (Lausanne, Switzerland)"
 
 # First image of the Timeline
 
@@ -171,7 +171,7 @@ email: "sergiocharpak@gmail.com"
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-author_blurb: "Sergio Hernandez Charpak is a Computational Scientist, a Physicist and Computing Engineer, and also an enthousiast of travel, hiking, chess and piano."
+author_blurb: "Sergio Daniel Hernandez Charpak is a PhD Computational Scientist, a Physicist and Computing Engineer researching in the interface between AI / medical imaging in healthcare, and also an enthousiast of travel, hiking, chess and piano."
 author_blurb_image: "/img/author.png"
 
 ##################
@@ -188,7 +188,7 @@ social:
   - title: "instagram"
     url: "https://www.instagram.com/sercharpak"
   - title: "rss"
-    url: "/feed.xml"
+    url: "https://scholar.google.com/citations?user=Xpzau3wAAAAJ&hl=en"
 
 ############
 # 404 page #

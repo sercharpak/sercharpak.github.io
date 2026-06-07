@@ -7,22 +7,123 @@
 		<atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
-				<title>Documentation on the Aorta Segmentation project</title>
+				<title>Mapping Human Proprioceptive Projections of Upper Limb Muscles Through Spinal Cord fMRI</title>
 				
 				
-					<description>&lt;p&gt;Between August and December 2016 I worked on my computing engineering undergraduate thesis on medical images analysis in order to develop a tool for
-the Segmentation of the aorta artery for applications such as the
-quantification of the elasticity of the aorta artery and
-quantification of the aorta artery calcifications under the direction
-of prof. Marcela Hernandez.
-The work has been done in colaboration with prof. Leonardo Florez, from Pontificia
- Universidad Javeriana (Bogota, Colombia), and Eduardo Davila, from CREATIS Laboratory
-  (Lyon, France).&lt;/p&gt;
+					<description>&lt;p&gt;I am delighted to share our work published in &lt;em&gt;Human Brain Mapping&lt;/em&gt;:&lt;/p&gt;
 </description>
 				
-				<pubDate>Tue, 06 Dec 2016 00:00:00 +0100</pubDate>
-				<link>http://0.0.0.0:4000/documentation/2016/12/06/docAortaProject.html</link>
-				<guid isPermaLink="true">http://0.0.0.0:4000/documentation/2016/12/06/docAortaProject.html</guid>
+				<pubDate>Wed, 22 Oct 2025 00:00:00 +0200</pubDate>
+				<link>http://0.0.0.0:4000/research/2025/10/22/hbm-cervical-fmri-vibration.html</link>
+				<guid isPermaLink="true">http://0.0.0.0:4000/research/2025/10/22/hbm-cervical-fmri-vibration.html</guid>
+			</item>
+		
+			<item>
+				<title>An implantable system to restore hemodynamic stability after spinal cord injury</title>
+				
+				
+					<description>&lt;p&gt;I am delighted to share our work published in &lt;em&gt;Nature Medicine&lt;/em&gt;:&lt;/p&gt;
+</description>
+				
+				<pubDate>Wed, 17 Sep 2025 00:00:00 +0200</pubDate>
+				<link>http://0.0.0.0:4000/research/2025/09/17/nature-medicine-hemodynamics-ees.html</link>
+				<guid isPermaLink="true">http://0.0.0.0:4000/research/2025/09/17/nature-medicine-hemodynamics-ees.html</guid>
+			</item>
+		
+			<item>
+				<title>Best Poster Prize at PHRT/SPHN From Technology to Treatment 2025</title>
+				
+				
+					<description>&lt;p&gt;I am thrilled to share that our poster won the &lt;strong&gt;Best Poster Prize&lt;/strong&gt; at the &lt;a href=&quot;https://www.sfa-phrt.ch/&quot;&gt;PHRT/SPHN From Technology to Treatment&lt;/a&gt; conference (August 2025), shared with my colleague &lt;strong&gt;Philippe Forero&lt;/strong&gt;.&lt;/p&gt;
+</description>
+				
+				<pubDate>Fri, 29 Aug 2025 00:00:00 +0200</pubDate>
+				<link>http://0.0.0.0:4000/research/2025/08/29/phrt-sphn-best-poster.html</link>
+				<guid isPermaLink="true">http://0.0.0.0:4000/research/2025/08/29/phrt-sphn-best-poster.html</guid>
+			</item>
+		
+			<item>
+				<title>Towards personalized mapping through lumbosacral spinal cord task fMRI</title>
+				
+				
+					<description>&lt;p&gt;I am delighted to share our work published in &lt;em&gt;Imaging Neuroscience&lt;/em&gt;:&lt;/p&gt;
+</description>
+				
+				<pubDate>Thu, 23 Jan 2025 00:00:00 +0100</pubDate>
+				<link>http://0.0.0.0:4000/research/2025/01/23/imaging-neuroscience-lumbosacral-fmri.html</link>
+				<guid isPermaLink="true">http://0.0.0.0:4000/research/2025/01/23/imaging-neuroscience-lumbosacral-fmri.html</guid>
+			</item>
+		
+			<item>
+				<title>A spinal cord neuroprosthesis for locomotor deficits due to Parkinson&apos;s disease</title>
+				
+				
+					<description>&lt;p&gt;I am delighted to share our work published in &lt;em&gt;Nature Medicine&lt;/em&gt;:&lt;/p&gt;
+</description>
+				
+				<pubDate>Mon, 06 Nov 2023 00:00:00 +0100</pubDate>
+				<link>http://0.0.0.0:4000/research/2023/11/06/nature-medicine-parkinsons-ees.html</link>
+				<guid isPermaLink="true">http://0.0.0.0:4000/research/2023/11/06/nature-medicine-parkinsons-ees.html</guid>
+			</item>
+		
+			<item>
+				<title>Walking naturally after spinal cord injury using a brain–spine interface</title>
+				
+				
+					<description>&lt;p&gt;I am delighted to share our work published in &lt;em&gt;Nature&lt;/em&gt;:&lt;/p&gt;
+</description>
+				
+				<pubDate>Wed, 24 May 2023 00:00:00 +0200</pubDate>
+				<link>http://0.0.0.0:4000/research/2023/05/24/nature-brain-spine-interface.html</link>
+				<guid isPermaLink="true">http://0.0.0.0:4000/research/2023/05/24/nature-brain-spine-interface.html</guid>
+			</item>
+		
+			<item>
+				<title>Implanted System for Orthostatic Hypotension in Multiple-System Atrophy</title>
+				
+				
+					<description>&lt;p&gt;I am delighted to share our work published in the &lt;em&gt;New England Journal of Medicine&lt;/em&gt;:&lt;/p&gt;
+</description>
+				
+				<pubDate>Wed, 06 Apr 2022 00:00:00 +0200</pubDate>
+				<link>http://0.0.0.0:4000/research/2022/04/06/nejm-msa-orthostatic.html</link>
+				<guid isPermaLink="true">http://0.0.0.0:4000/research/2022/04/06/nejm-msa-orthostatic.html</guid>
+			</item>
+		
+			<item>
+				<title>Activity-dependent spinal cord neuromodulation rapidly restores trunk and leg motor functions after complete paralysis</title>
+				
+				
+					<description>&lt;p&gt;I am delighted to share our work published in &lt;em&gt;Nature Medicine&lt;/em&gt;:&lt;/p&gt;
+</description>
+				
+				<pubDate>Mon, 07 Feb 2022 00:00:00 +0100</pubDate>
+				<link>http://0.0.0.0:4000/research/2022/02/07/nature-medicine-ees.html</link>
+				<guid isPermaLink="true">http://0.0.0.0:4000/research/2022/02/07/nature-medicine-ees.html</guid>
+			</item>
+		
+			<item>
+				<title>Around the Eggishorn — Aletsch Glacier Bivouac</title>
+				
+				
+					<description>&lt;p&gt;In August 2020 we set off on a loop around the &lt;strong&gt;Eggishorn&lt;/strong&gt;, with a wonderful team — several of whom were Colombian friends experiencing their very first bivouac and alpine hike.&lt;/p&gt;
+</description>
+				
+				<pubDate>Sun, 16 Aug 2020 00:00:00 +0200</pubDate>
+				<link>http://0.0.0.0:4000/outdoors/2020/08/16/aletsch-glacier.html</link>
+				<guid isPermaLink="true">http://0.0.0.0:4000/outdoors/2020/08/16/aletsch-glacier.html</guid>
+			</item>
+		
+			<item>
+				<title>Simulation of Deconfinement Strategies — LauzHack Against COVID-19</title>
+				
+				
+					<description>&lt;p&gt;In April 2020, at the height of the COVID-19 pandemic, I participated in the &lt;strong&gt;&lt;a href=&quot;https://devpost.com/software/proposal-simulation-of-deconfinement-strategies-jy3ctf&quot;&gt;LauzHack Against COVID-19&lt;/a&gt;&lt;/strong&gt; hackathon — a 72-hour remote event bringing together people who wanted to contribute to the pandemic response.&lt;/p&gt;
+</description>
+				
+				<pubDate>Mon, 06 Apr 2020 00:00:00 +0200</pubDate>
+				<link>http://0.0.0.0:4000/side/2020/04/06/lauzahack-covid-deconfinement.html</link>
+				<guid isPermaLink="true">http://0.0.0.0:4000/side/2020/04/06/lauzahack-covid-deconfinement.html</guid>
 			</item>
 		
 	</channel>

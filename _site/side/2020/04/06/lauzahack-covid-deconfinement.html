@@ -17,8 +17,8 @@
   <meta name="description" content="Blog and website of Sergio Daniel Hernandez Charpak, blogging, personal information as well as information and documentation for different projects.">
   <meta name="author" content="Sergio Daniel Hernandez Charpak">
   <meta name="keywords" content="Hernandez-Charpak, Sergio, Daniel, Hernandez, Charpak, Computational Science, Astrophysics, Imaging, Education, Chess">
-  <link rel="canonical" href="/documentation/2016/12/06/docAortaProject.html">
-  <title>Sergio Daniel Hernandez Charpak | Documentation on the Aorta Segmentation project</title>
+  <link rel="canonical" href="/side/2020/04/06/lauzahack-covid-deconfinement.html">
+  <title>Sergio Daniel Hernandez Charpak | Simulation of Deconfinement Strategies — LauzHack Against COVID-19</title>
 
   <!-- Bootstrap Core CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -177,60 +177,39 @@
 <!-- Swipe Instructions End -->
 
 
-          <h1><strong>Documentation on the Aorta Segmentation project</strong></h1>
+          <h1><strong>Simulation of Deconfinement Strategies — LauzHack Against COVID-19</strong></h1>
           <h4>
-            <strong>06 Dec 2016</strong>
+            <strong>06 Apr 2020</strong>
             <small>
               . category:
-              <a class="category" href="/categories/documentation.html">
-                documentation
+              <a class="category" href="/categories/side.html">
+                Side
               </a>.
-              <a href="/documentation/2016/12/06/docAortaProject.html#disqus_thread">Comments</a>
+              <a href="/side/2020/04/06/lauzahack-covid-deconfinement.html#disqus_thread">Comments</a>
               <br />
               
-                <a class="tag" href="/tags/medical imaging.html">#medical imaging</a>
+                <a class="tag" href="/tags/hackathon.html">#hackathon</a>
+              
+                <a class="tag" href="/tags/simulation.html">#simulation</a>
               
             </small>
           </h4>
 
-          <p>Between August and December 2016 I worked on my computing engineering undergraduate thesis on medical images analysis in order to develop a tool for
-the Segmentation of the aorta artery for applications such as the
-quantification of the elasticity of the aorta artery and
-quantification of the aorta artery calcifications under the direction
-of prof. Marcela Hernandez.
-The work has been done in colaboration with prof. Leonardo Florez, from Pontificia
- Universidad Javeriana (Bogota, Colombia), and Eduardo Davila, from CREATIS Laboratory
-  (Lyon, France).</p>
+          <p>In April 2020, at the height of the COVID-19 pandemic, I participated in the <strong><a href="https://devpost.com/software/proposal-simulation-of-deconfinement-strategies-jy3ctf">LauzHack Against COVID-19</a></strong> hackathon — a 72-hour remote event bringing together people who wanted to contribute to the pandemic response.</p>
 
-<p>Some of the scripts and documentation can be found in this <a href="https://github.com/sercharpak/Proyecto_de_grado"> repository</a>.</p>
+<p>Our team was a wonderfull mix: a group of computational scientists  and a vet — Didier Bieler, Florence Le Sueur, Romain Vandemeulebrouck, Cécile Le Sueur, Laurent Colbois, and myself.</p>
 
-<p>This project is based on previous solutions to this problem developped at CREATIS Laboratory (Lyon, France).
-Previous implementations were developed by Eduardo Dávila for users in the CREATIS Laboratory environment in the <a href="https://www.creatis.insa-lyon.fr/site/en/CreaTools_home.html"> CreaTools</a>
-toolbox. In one project the goal was to obtain a visualization of the deformation of the aorta artery wall. In an other project the objective was to retrieve segmentation of the calcifications around the aorta artery.</p>
+<hr />
 
-<h2> Previous projects</h2>
-<!---
-<h3>Aorta Wall Deformation project</h3>
+<p>We built on top of the stunning epidemic simulator created by <a href="https://www.3blue1brown.com/">3Blue1Brown</a> — all credit for the original concept goes to the 3Blue1Brown team and the developers of <a href="https://github.com/3b1b/manim">Manim</a>, the mathematical animation library that powers it. That original work is simply remarkable.</p>
 
-<p>The main developer of this project was Eduardo Dávila. The
-goal of the project was to visualize and quantify the deformation of the aorta artery wall between the systole and diastole phases.  </p>
-<p>A summary of the project is the following <b>diagram</b>. Download the  <a href="https://github.com/sercharpak/Proyecto_de_grado/raw/master/docs/old_project_AortaWall.gv"> .DOT source here</a>.</p>
-<img src="https://github.com/sercharpak/Proyecto_de_grado/raw/master/docs/old_project_AortaWall.png"  >
---->
-<h3>Calcifications Segmentation project</h3>
-<p>The main developer of this project was Eduardo Dávila. The
-goal of the project was to visualize and confirm the calcifications around the aorta artery. </p>
-<p>A summary of the project is the following <b>diagram</b>. Download the  <a href="https://github.com/sercharpak/Proyecto_de_grado/raw/master/docs/old_project_SegCall.gv"> .DOT source here</a>.</p>
-<p><img src="https://github.com/sercharpak/Proyecto_de_grado/raw/master/docs/old_project_SegCall.png" /></p>
+<p>Our contribution was to extend the simulator to explore <strong>deconfinement strategies</strong>: what happens when you progressively reopen different segments of the population? We modelled scenarios such as phased reopening by age group, facility-specific reopenings (schools, markets), alternating confinement cycles triggered by infection thresholds, and multi-regional policy timing differences. The goal was to provide intuitive visualizations that could make these complex tradeoffs more legible for a general audience.</p>
 
-<h2> Our solution</h2>
-<p>The segmentation algorithm was implemented in two steps. The first, the axis extraction, is
-implemented in the cpPlugins framework developed by Leonardo Flórez, itself written in C++
-and using the external image processing libraries ITK and VTK versions 4.10 and 7.0
-respectively. The second step is the extraction of the aorta with the axis as an input. It is
-implemented in the CreaTools framework. </p>
-<p>A summary of the project is the following <b>diagram</b>. Download the  <a href="https://github.com/sercharpak/Proyecto_de_grado/raw/master/docs/new_project.gv"> .DOT source here</a>.</p>
-<p><img src="https://github.com/sercharpak/Proyecto_de_grado/raw/master/docs/new_project.png" /></p>
+<p>The project was implemented in Python using the Manim animation library. You can find the full submission on <a href="https://devpost.com/software/proposal-simulation-of-deconfinement-strategies-jy3ctf">Devpost</a>.</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5em;">
+  <iframe src="https://www.youtube.com/embed/1HKNcNFiqn4" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" allowfullscreen=""></iframe>
+</div>
 
 
           
@@ -359,7 +338,7 @@ $(window).scroll(toggleNavCollapse);$(function(){$("a.page-scroll").bind("click"
 <script>
 function addTohistory() {
   if (!window.location.host.startsWith("127.0.0.1")) {
-    history.pushState({}, 'Documentation on the Aorta Segmentation project', 'http://0.0.0.0:4000/documentation/2016/12/06/docAortaProject.html');
+    history.pushState({}, 'Simulation of Deconfinement Strategies — LauzHack Against COVID-19', 'http://0.0.0.0:4000/side/2020/04/06/lauzahack-covid-deconfinement.html');
   }
 }
 </script>
@@ -379,14 +358,14 @@ function addTohistory() {
       new Hammer(post).on('swipeleft', function(event) {
         addTohistory();
         
-          document.location.replace("");
+          document.location.replace("/documentation/2016/12/06/docAortaProject.html");
         
       });
 
       new Hammer(post).on('swiperight', function(event) {
         addTohistory();
         
-          document.location.replace("/side/2020/04/06/lauzahack-covid-deconfinement.html");
+          document.location.replace("/outdoors/2020/08/16/aletsch-glacier.html");
         
       });
     </script>

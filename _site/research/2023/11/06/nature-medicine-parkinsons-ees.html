@@ -17,8 +17,8 @@
   <meta name="description" content="Blog and website of Sergio Daniel Hernandez Charpak, blogging, personal information as well as information and documentation for different projects.">
   <meta name="author" content="Sergio Daniel Hernandez Charpak">
   <meta name="keywords" content="Hernandez-Charpak, Sergio, Daniel, Hernandez, Charpak, Computational Science, Astrophysics, Imaging, Education, Chess">
-  <link rel="canonical" href="/documentation/2016/12/06/docAortaProject.html">
-  <title>Sergio Daniel Hernandez Charpak | Documentation on the Aorta Segmentation project</title>
+  <link rel="canonical" href="/research/2023/11/06/nature-medicine-parkinsons-ees.html">
+  <title>Sergio Daniel Hernandez Charpak | A spinal cord neuroprosthesis for locomotor deficits due to Parkinson's disease</title>
 
   <!-- Bootstrap Core CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -177,60 +177,37 @@
 <!-- Swipe Instructions End -->
 
 
-          <h1><strong>Documentation on the Aorta Segmentation project</strong></h1>
+          <h1><strong>A spinal cord neuroprosthesis for locomotor deficits due to Parkinson's disease</strong></h1>
           <h4>
-            <strong>06 Dec 2016</strong>
+            <strong>06 Nov 2023</strong>
             <small>
               . category:
-              <a class="category" href="/categories/documentation.html">
-                documentation
+              <a class="category" href="/categories/research.html">
+                Research
               </a>.
-              <a href="/documentation/2016/12/06/docAortaProject.html#disqus_thread">Comments</a>
+              <a href="/research/2023/11/06/nature-medicine-parkinsons-ees.html#disqus_thread">Comments</a>
               <br />
               
-                <a class="tag" href="/tags/medical imaging.html">#medical imaging</a>
+                <a class="tag" href="/tags/neuroimaging.html">#neuroimaging</a>
+              
+                <a class="tag" href="/tags/epidural electrical stimulation.html">#epidural electrical stimulation</a>
               
             </small>
           </h4>
 
-          <p>Between August and December 2016 I worked on my computing engineering undergraduate thesis on medical images analysis in order to develop a tool for
-the Segmentation of the aorta artery for applications such as the
-quantification of the elasticity of the aorta artery and
-quantification of the aorta artery calcifications under the direction
-of prof. Marcela Hernandez.
-The work has been done in colaboration with prof. Leonardo Florez, from Pontificia
- Universidad Javeriana (Bogota, Colombia), and Eduardo Davila, from CREATIS Laboratory
-  (Lyon, France).</p>
+          <p>I am delighted to share our work published in <em>Nature Medicine</em>:</p>
 
-<p>Some of the scripts and documentation can be found in this <a href="https://github.com/sercharpak/Proyecto_de_grado"> repository</a>.</p>
+<p><strong><a href="https://doi.org/10.1038/s41591-023-02584-1">A spinal cord neuroprosthesis for locomotor deficits due to Parkinson’s disease</a></strong></p>
 
-<p>This project is based on previous solutions to this problem developped at CREATIS Laboratory (Lyon, France).
-Previous implementations were developed by Eduardo Dávila for users in the CREATIS Laboratory environment in the <a href="https://www.creatis.insa-lyon.fr/site/en/CreaTools_home.html"> CreaTools</a>
-toolbox. In one project the goal was to obtain a visualization of the deformation of the aorta artery wall. In an other project the objective was to retrieve segmentation of the calcifications around the aorta artery.</p>
+<p><em>Nature Medicine</em>, Vol. 29, No. 11, pp. 2854–2865 (November 2023)</p>
 
-<h2> Previous projects</h2>
-<!---
-<h3>Aorta Wall Deformation project</h3>
+<p>Tomislav Milekovic, Eduardo Martin Moraud, Nicolo Macellari, Charlotte Moerman, Flavio Raschellà, Shiqi Sun, Matthew G. Perich, Camille Varescon, Robin Demesmaeker, Alice Bruel, Léa N. Bole-Feysot, Giuseppe Schiavone, Elvira Pirondini, Cheng YunLong, Li Hao, Andrea Galvez, <strong>Sergio Daniel Hernandez-Charpak</strong>, Gregory Dumont, Jimmy Ravier, Camille G. Le Goff-Mignardot, Jean-Baptiste Mignardot, Gaia Carparelli, Cathal Harte, Nicolas Hankov, Viviana Aureli, Anne Watrin, Hendrik Lambert, David Borton, Jean Laurens, Isabelle Vollenweider, Simon Borgognon, François Bourre, Michel Goillandeau, Wai Kin D. Ko, Laurent Petit, Qin Li, Rik Buschman, Nicholas Buse, Maria Yaroshinsky, Jean-Baptiste Ledoux, Fabio Becce, Mayté Castro Jimenez, Julien F. Bally, Timothy Denison, Dominique Guehl, Auke Ijspeert, Marco Capogrosso, Jordan W. Squair, Léonie Asboth, Philip A. Starr, Doris D. Wang, Stéphanie P. Lacour, Silvestro Micera, Chuan Qin, Jocelyne Bloch, Erwan Bezard, Grégoire Courtine</p>
 
-<p>The main developer of this project was Eduardo Dávila. The
-goal of the project was to visualize and quantify the deformation of the aorta artery wall between the systole and diastole phases.  </p>
-<p>A summary of the project is the following <b>diagram</b>. Download the  <a href="https://github.com/sercharpak/Proyecto_de_grado/raw/master/docs/old_project_AortaWall.gv"> .DOT source here</a>.</p>
-<img src="https://github.com/sercharpak/Proyecto_de_grado/raw/master/docs/old_project_AortaWall.png"  >
---->
-<h3>Calcifications Segmentation project</h3>
-<p>The main developer of this project was Eduardo Dávila. The
-goal of the project was to visualize and confirm the calcifications around the aorta artery. </p>
-<p>A summary of the project is the following <b>diagram</b>. Download the  <a href="https://github.com/sercharpak/Proyecto_de_grado/raw/master/docs/old_project_SegCall.gv"> .DOT source here</a>.</p>
-<p><img src="https://github.com/sercharpak/Proyecto_de_grado/raw/master/docs/old_project_SegCall.png" /></p>
+<hr />
 
-<h2> Our solution</h2>
-<p>The segmentation algorithm was implemented in two steps. The first, the axis extraction, is
-implemented in the cpPlugins framework developed by Leonardo Flórez, itself written in C++
-and using the external image processing libraries ITK and VTK versions 4.10 and 7.0
-respectively. The second step is the extraction of the aorta with the axis as an input. It is
-implemented in the CreaTools framework. </p>
-<p>A summary of the project is the following <b>diagram</b>. Download the  <a href="https://github.com/sercharpak/Proyecto_de_grado/raw/master/docs/new_project.gv"> .DOT source here</a>.</p>
-<p><img src="https://github.com/sercharpak/Proyecto_de_grado/raw/master/docs/new_project.png" /></p>
+<p>I led the guidance of the spinal cord EES neuroprosthesis implantation by developing a data pipeline that leverages different artificial neural networks (ANNs) for spinal tissue segmentation on MRI and CT scans. The guidance was based on personalized anatomical models built from high-resolution structural imaging — notably at a 1.5 Tesla MRI field strength. Beyond improving accuracy, this new pipeline significantly reduced the time and manual effort required to construct these personalized models, making the approach more accessible for clinical deployment. Thanks to the collective efforts of the team, the resulting stimulation led to notable improvements in the participant’s gait deficits caused by Parkinson’s disease.</p>
+
+<p><img src="https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41591-023-02584-1/MediaObjects/41591_2023_2584_Fig5_HTML.png?as=webp" alt="Figure 5 — Personalized modelling and stimulation outcomes" /></p>
 
 
           
@@ -359,7 +336,7 @@ $(window).scroll(toggleNavCollapse);$(function(){$("a.page-scroll").bind("click"
 <script>
 function addTohistory() {
   if (!window.location.host.startsWith("127.0.0.1")) {
-    history.pushState({}, 'Documentation on the Aorta Segmentation project', 'http://0.0.0.0:4000/documentation/2016/12/06/docAortaProject.html');
+    history.pushState({}, 'A spinal cord neuroprosthesis for locomotor deficits due to Parkinson's disease', 'http://0.0.0.0:4000/research/2023/11/06/nature-medicine-parkinsons-ees.html');
   }
 }
 </script>
@@ -379,14 +356,14 @@ function addTohistory() {
       new Hammer(post).on('swipeleft', function(event) {
         addTohistory();
         
-          document.location.replace("");
+          document.location.replace("/research/2023/05/24/nature-brain-spine-interface.html");
         
       });
 
       new Hammer(post).on('swiperight', function(event) {
         addTohistory();
         
-          document.location.replace("/side/2020/04/06/lauzahack-covid-deconfinement.html");
+          document.location.replace("/research/2025/01/23/imaging-neuroscience-lumbosacral-fmri.html");
         
       });
     </script>
