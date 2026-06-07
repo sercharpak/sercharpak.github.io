@@ -11,17 +11,6 @@
   
 
 
-  <!-- Force HTTPS Start -->
-  <script>
-  // Don't force http when serving the website locally
-  if (!(window.location.host.startsWith("127.0.0.1")) && (window.location.protocol != "https:"))
-    window.location.protocol = "https";
-  </script>
-
-  <!-- Force HTTPS End -->
-
-
-
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -190,9 +179,8 @@ If you want to have a static message in your intro layout, disable the dynamic-t
   <div class="row">
     <div class="col-md-10 col-md-offset-1">
       <h2 id="about">About</h2>
-
-<p>I am a Msc. Computational Scientist and Engineer from <a href="https://www.epfl.ch/" target="_blank">EPFL</a>, Lausanne, Switzerland, and a Physicist and Computing Engineer from <a href="http://www.uniandes.edu.co/" target="_blank">Universidad de los Andes</a> at Bogota, Colombia.
-I am diving into AI and neurostimulation paradigms, currently performing as a scientific assistant at <a href="https://www.neurorestore.swiss/" target="_blank">NeuroRestore</a> at Lausanne, Switzerland.
+<p>I am currently a post-doctoral reseracher and am imaging and computational manager at <a href="https://www.neurorestore.swiss/" target="_blank">NeuroRestore</a> diving into AI, medical imaging, optimization and neurostimulation. 
+I am a PhD and Msc. Computational Scientist and Engineer from <a href="https://www.epfl.ch/" target="_blank">EPFL</a>, Lausanne, Switzerland, and a Physicist and Computing Engineer from <a href="http://www.uniandes.edu.co/" target="_blank">Universidad de los Andes</a> at Bogota, Colombia.
 I am interested in artificial intelligence, neuroscience, computer vision, cosmic scale astrophysics, medical image computing, education and interdisciplinary fields between computing engineering, neuroscience and physics.
 I am also an enthusiast of travel, hiking, science fiction, chess and piano.</p>
 
@@ -238,7 +226,11 @@ I am also an enthusiast of travel, hiking, science fiction, chess and piano.</p>
       
         
       
+        
+      
     
+      
+        
       
         
       
@@ -504,7 +496,49 @@ I am also an enthusiast of travel, hiking, science fiction, chess and piano.</p>
                 <h4>March 2020</h4>
               </div>
               <div class="timeline-body">
-                <p>Scientific Assistant at NeuroRestore (Lausanne, Switzerland)</p>
+                <p>Scientific Assistant and start of PhD at .NeuroRestore (Lausanne, Switzerland)</p>
+
+              </div>
+            </div>
+          </li>
+        
+          
+          
+
+          <li class="
+          
+            timeline-inverted
+          
+          ">
+            <div class="timeline-image">
+              <img class="img-circle img-responsive" src="/img/timeline/NR_EPFL_CHUV.png" alt="">
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>June 2024</h4>
+              </div>
+              <div class="timeline-body">
+                <p>Imaging and Compuational Manager at .NeuroRestore (Lausanne, Switzerland)</p>
+
+              </div>
+            </div>
+          </li>
+        
+          
+          
+
+          <li class="
+          
+          ">
+            <div class="timeline-image">
+              <img class="img-circle img-responsive" src="/img/timeline/defense_hats.png" alt="">
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>February 2025</h4>
+              </div>
+              <div class="timeline-body">
+                <p>Graduated as PhD at .NeuroRestore (EPFL, Lausanne, Switzerland)</p>
 
               </div>
             </div>
@@ -606,6 +640,8 @@ I am also an enthusiast of travel, hiking, science fiction, chess and piano.</p>
       
         
       
+        
+      
     
       
         
@@ -680,6 +716,8 @@ I am also an enthusiast of travel, hiking, science fiction, chess and piano.</p>
       
         
       
+        
+      
     
 
     <!-- Footer Start -->
@@ -709,7 +747,7 @@ I am also an enthusiast of travel, hiking, science fiction, chess and piano.</p>
     <p><br><br></p>
 
     <div class="container text-center">
-        <p>Copyright &copy; Sergio Daniel Hernandez Charpak 2020</p>
+        <p>Copyright &copy; Sergio Daniel Hernandez Charpak 2026</p>
         
     </div>
 </footer>
@@ -754,50 +792,6 @@ $(window).scroll(toggleNavCollapse);$(function(){$("a.page-scroll").bind("click"
 
 
 
-  
-
-  <!-- Google Tracking Id Start -->
-
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-    ga('create', '', 'auto');
-    ga('send', 'pageview');
-  </script>
-
-  <!-- Google Tracking Id End -->
-
-  
-
-
-
-
-  <!-- Disqus -->
-
-  
-
-  
-
-    <!-- Comments Counter Start -->
-
-    <script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'sercharpak'; // required: replace example with your forum shortname
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function () {
-    var s = document.createElement('script'); s.async = true;
-    s.type = 'text/javascript';
-    s.src = '//' + disqus_shortname + '.disqus.com/count.js';
-    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-    }());
-    </script>
-
-    <!-- Comments Counter End -->
-
-  
 
 
 
@@ -862,7 +856,7 @@ $(window).scroll(toggleNavCollapse);$(function(){$("a.page-scroll").bind("click"
 <script>
 function addTohistory() {
   if (!window.location.host.startsWith("127.0.0.1")) {
-    history.pushState({}, '', 'https://sercharpak.github.io/');
+    history.pushState({}, '', 'http://0.0.0.0:4000/');
   }
 }
 </script>

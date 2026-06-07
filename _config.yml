@@ -145,7 +145,13 @@ events:
     description: "Graduated as Msc of CSE from EPFL (Lausanne, Switzerland)"
   - image: "/img/timeline/upcourtine_logo.png"
     date: "March 2020"
-    description: "Scientific Assistant at NeuroRestore (Lausanne, Switzerland)"
+    description: "Scientific Assistant and start of PhD at .NeuroRestore (Lausanne, Switzerland)"
+  - image: "/img/timeline/NR_EPFL_CHUV.png"
+    date: "June 2024"
+    description: "Imaging and Compuational Manager at .NeuroRestore (Lausanne, Switzerland)"
+  - image: "/img/timeline/defense_hats.png"
+    date: "February 2025"
+    description: "Graduated as PhD at .NeuroRestore (EPFL, Lausanne, Switzerland)"
 
 # First image of the Timeline
 
