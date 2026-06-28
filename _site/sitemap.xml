@@ -83,9 +83,27 @@
   
   
     <url>
+      <loc>http://0.0.0.0:4000/research/2026/06/13/ohbm-2026.html</loc>
+      
+        <lastmod>2026-06-13T00:00:00+02:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+    <url>
       <loc>http://0.0.0.0:4000/research/2025/10/22/hbm-cervical-fmri-vibration.html</loc>
       
         <lastmod>2025-10-22T00:00:00+02:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+    <url>
+      <loc>http://0.0.0.0:4000/research/2025/10/08/esmrmb-spinegpt.html</loc>
+      
+        <lastmod>2025-10-08T00:00:00+02:00</lastmod>
       
       <changefreq>weekly</changefreq>
       <priority>1.0</priority>

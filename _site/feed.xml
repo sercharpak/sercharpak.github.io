@@ -7,6 +7,18 @@
 		<atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Three abstracts at OHBM 2026 — Bordeaux</title>
+				
+				
+					<description>&lt;p&gt;This June I attended the &lt;a href=&quot;https://www.humanbrainmapping.org/OHBM2026/&quot;&gt;Organization for Human Brain Mapping (OHBM) Annual Meeting 2026&lt;/a&gt; in Bordeaux, France, where I participated in three abstracts spanning spinal cord foundation modelling, resting-state functional connectivity, and proprioceptive circuit mapping. All abstracts are browsable through the &lt;a href=&quot;https://abstractatlas.brainkb.org/ohbm2026/&quot;&gt;Abstract Atlas&lt;/a&gt; — an interactive 3D embedding of every OHBM 2026 submission where each dot is an abstract, positioned by semantic similarity.&lt;/p&gt;
+</description>
+				
+				<pubDate>Sat, 13 Jun 2026 00:00:00 +0200</pubDate>
+				<link>http://0.0.0.0:4000/research/2026/06/13/ohbm-2026.html</link>
+				<guid isPermaLink="true">http://0.0.0.0:4000/research/2026/06/13/ohbm-2026.html</guid>
+			</item>
+		
+			<item>
 				<title>Mapping Human Proprioceptive Projections of Upper Limb Muscles Through Spinal Cord fMRI</title>
 				
 				
@@ -16,6 +28,18 @@
 				<pubDate>Wed, 22 Oct 2025 00:00:00 +0200</pubDate>
 				<link>http://0.0.0.0:4000/research/2025/10/22/hbm-cervical-fmri-vibration.html</link>
 				<guid isPermaLink="true">http://0.0.0.0:4000/research/2025/10/22/hbm-cervical-fmri-vibration.html</guid>
+			</item>
+		
+			<item>
+				<title>SpineGPT: Self-supervised learning of human spinal cord anatomy — ESMRMB 2025</title>
+				
+				
+					<description>&lt;p&gt;I am glad to share our abstract presented at the &lt;a href=&quot;https://www.esmrmb.org/congress/past-meetings/congress-2025/&quot;&gt;ESMRMB Congress 2025&lt;/a&gt; (Marseille, 8–11 October 2025), published in the Book of Abstracts (&lt;a href=&quot;https://doi.org/10.1007/s10334-025-01278-8&quot;&gt;doi:10.1007/s10334-025-01278-8&lt;/a&gt;, Abstract 276):&lt;/p&gt;
+</description>
+				
+				<pubDate>Wed, 08 Oct 2025 00:00:00 +0200</pubDate>
+				<link>http://0.0.0.0:4000/research/2025/10/08/esmrmb-spinegpt.html</link>
+				<guid isPermaLink="true">http://0.0.0.0:4000/research/2025/10/08/esmrmb-spinegpt.html</guid>
 			</item>
 		
 			<item>
@@ -100,30 +124,6 @@
 				<pubDate>Mon, 07 Feb 2022 00:00:00 +0100</pubDate>
 				<link>http://0.0.0.0:4000/research/2022/02/07/nature-medicine-ees.html</link>
 				<guid isPermaLink="true">http://0.0.0.0:4000/research/2022/02/07/nature-medicine-ees.html</guid>
-			</item>
-		
-			<item>
-				<title>Around the Eggishorn — Aletsch Glacier Bivouac</title>
-				
-				
-					<description>&lt;p&gt;In August 2020 we set off on a loop around the &lt;strong&gt;Eggishorn&lt;/strong&gt;, with a wonderful team — several of whom were Colombian friends experiencing their very first bivouac and alpine hike.&lt;/p&gt;
-</description>
-				
-				<pubDate>Sun, 16 Aug 2020 00:00:00 +0200</pubDate>
-				<link>http://0.0.0.0:4000/outdoors/2020/08/16/aletsch-glacier.html</link>
-				<guid isPermaLink="true">http://0.0.0.0:4000/outdoors/2020/08/16/aletsch-glacier.html</guid>
-			</item>
-		
-			<item>
-				<title>Simulation of Deconfinement Strategies — LauzHack Against COVID-19</title>
-				
-				
-					<description>&lt;p&gt;In April 2020, at the height of the COVID-19 pandemic, I participated in the &lt;strong&gt;&lt;a href=&quot;https://devpost.com/software/proposal-simulation-of-deconfinement-strategies-jy3ctf&quot;&gt;LauzHack Against COVID-19&lt;/a&gt;&lt;/strong&gt; hackathon — a 72-hour remote event bringing together people who wanted to contribute to the pandemic response.&lt;/p&gt;
-</description>
-				
-				<pubDate>Mon, 06 Apr 2020 00:00:00 +0200</pubDate>
-				<link>http://0.0.0.0:4000/side/2020/04/06/lauzahack-covid-deconfinement.html</link>
-				<guid isPermaLink="true">http://0.0.0.0:4000/side/2020/04/06/lauzahack-covid-deconfinement.html</guid>
 			</item>
 		
 	</channel>
