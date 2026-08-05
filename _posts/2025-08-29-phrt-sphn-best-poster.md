@@ -18,4 +18,4 @@ Our poster presented our current framework for building personalized digital twi
 
 We demonstrated the application of this complete framework in the context of clinical trials exploring epidural electrical stimulation (EES) in SCI individuals — showing how personalized models can guide implantation, inform stimulation parameters, and ultimately help translate neurotechnology from the lab to the clinic.
 
-![Best Poster Prize — PHRT/SPHN From Technology to Treatment 2025](https://media.licdn.com/dms/image/v2/D4E22AQGlbEMD8nnLYA/feedshare-image-high-res/B4EZj2OSEgIQA4-/0/1756477596768?e=1782345600&v=beta&t=hBBP8JhsZZeQaSKXjNgsw9DuKX-A-qwDyR1zgF88Am0)
+![Best Poster Prize — PHRT/SPHN From Technology to Treatment 2025](https://sfa-phrt.ch/wp-content/uploads/2025/09/L1051861.jpg)
