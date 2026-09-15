@@ -7,6 +7,18 @@
 		<atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Open dataset: lumbosacral spinal cord task fMRI now on OpenNeuro</title>
+				
+				
+					<description>&lt;p&gt;I am happy to share that the dataset underlying our &lt;a href=&quot;/research/2025/01/23/imaging-neuroscience-lumbosacral-fmri.html&quot;&gt;&lt;em&gt;Imaging Neuroscience&lt;/em&gt; study on lumbosacral spinal cord task fMRI&lt;/a&gt; is now openly available on &lt;a href=&quot;https://openneuro.org/&quot;&gt;OpenNeuro&lt;/a&gt;:&lt;/p&gt;
+</description>
+				
+				<pubDate>Tue, 15 Sep 2026 00:00:00 +0200</pubDate>
+				<link>http://0.0.0.0:4000/research/2026/09/15/openneuro-lumbosacral-dataset.html</link>
+				<guid isPermaLink="true">http://0.0.0.0:4000/research/2026/09/15/openneuro-lumbosacral-dataset.html</guid>
+			</item>
+		
+			<item>
 				<title>Three abstracts at OHBM 2026 — Bordeaux</title>
 				
 				
@@ -112,18 +124,6 @@
 				<pubDate>Wed, 06 Apr 2022 00:00:00 +0200</pubDate>
 				<link>http://0.0.0.0:4000/research/2022/04/06/nejm-msa-orthostatic.html</link>
 				<guid isPermaLink="true">http://0.0.0.0:4000/research/2022/04/06/nejm-msa-orthostatic.html</guid>
-			</item>
-		
-			<item>
-				<title>Activity-dependent spinal cord neuromodulation rapidly restores trunk and leg motor functions after complete paralysis</title>
-				
-				
-					<description>&lt;p&gt;I am delighted to share our work published in &lt;em&gt;Nature Medicine&lt;/em&gt;:&lt;/p&gt;
-</description>
-				
-				<pubDate>Mon, 07 Feb 2022 00:00:00 +0100</pubDate>
-				<link>http://0.0.0.0:4000/research/2022/02/07/nature-medicine-ees.html</link>
-				<guid isPermaLink="true">http://0.0.0.0:4000/research/2022/02/07/nature-medicine-ees.html</guid>
 			</item>
 		
 	</channel>
